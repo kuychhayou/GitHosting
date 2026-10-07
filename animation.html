@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box{
+        width: 500px;
+        height: 500px;
+        background-color: cornflowerblue;
+        animation: test 3s ease-in-out infinite;
+    }
+    @keyframes test{
+        /* 0%{
+            background-color: white;
+        }
+        50%{
+            background-color: black;
+        }
+        100%{
+            background-color: white;
+        } */
+         /* 0%{
+            transform: scaleX(0);
+         }
+         100%{
+            transform: scaleX(500px);
+         } */
+         0%{
+            transform: translateX(0);
+         }
+         100%{
+            transform: translateX(500px);
+         }
+    }
+</style>
+<body>
+    <div class="box"></div>
+</body>
+</html>

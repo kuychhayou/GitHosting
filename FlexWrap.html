@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex wrap</title>
+</head>
+<style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .parent{
+        width: 100%;
+        height: 100vh;
+        /* flex-wrap: wrap;
+        display: flex;
+        align-content: start; */
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 200px;
+    }
+    .child{
+        width: 600px;
+        height: 600px;
+    }
+    .child1{
+        background-color: dimgray;
+    }
+    .child2{
+        background-color: darkslateblue;
+    }
+    .child3{
+        background-color: darkmagenta;
+    }
+    .child4{
+        background-color: deeppink;
+    }
+    .child5{
+        background-color: gainsboro;
+    }
+    .child6{
+        background-color: darksalmon;
+    }
+    .child7{
+        background-color: indigo;
+    }
+    .child8{
+        background-color:  lawngreen;
+    }
+    .child9{
+        background-color: lightskyblue;
+    }
+</style>
+<body>
+    <div class="parent">
+        <div class="child child1"></div>
+        <div class="child child2"></div>
+        <div class="child child3"></div>
+        <div class="child child4"></div>
+        <div class="child child5"></div>
+        <div class="child child6"></div>
+        <div class="child child7"></div>
+        <div class="child child8"></div>
+        <div class="child child9"></div>
+    </div>
+</body>
+</html>

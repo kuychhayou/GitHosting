@@ -1,0 +1,16 @@
+url(style.css)
+<style>
+        h1{
+            background-color: blueviolet;
+            color: aquamarine;
+        }
+        .hashas{
+            color: yellow;
+        }
+        #t32{
+            color: burlywood;
+        }
+        .papa .konpov{
+            color: cyan;
+        }
+    </style>

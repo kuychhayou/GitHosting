@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .dropdown{
+        width: 100px;
+        height: 30px;
+        background-color: red;
+    }
+    .dropdown:hover .contaner{
+        opacity: 1;
+        height: 100px;
+        background-color: cornflowerblue;
+        color: aliceblue;
+    }
+    button{
+        width: 100px;
+        height: 100px;
+    }
+    .contaner{
+        width: 100px;
+        height: 0px;
+        transition: all 0.3s ease-in-out;
+        opacity: 0;
+        box-shadow: rgba(0,0,0,0.35)0px 5px 15px;
+    }
+    .contaner a{
+        color: aliceblue;
+    }
+    
+</style>
+<body>
+    <div class="dropdown">
+        <button>DropMe</button>
+        <div class="contaner">
+            <a href="">Click Me</a>
+            <a href="">Click Me</a>
+        </div>
+    </div>
+</body>
+</html>

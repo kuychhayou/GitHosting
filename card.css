@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.product-control {
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    padding: 100px;
+}
+
+.card {
+    margin: auto;
+    width: 300px;
+    background-color: #eee;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 15px;
+    position: relative;
+}
+
+.card .logo img {
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+}
+
+.card .title {
+    width: 100%;
+    height: 25%;
+}
+
+.card .title h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.card .title .star {
+    color: gold;
+    margin: 10px 0px;
+}
+
+.card .title .star:last-child {
+    color: black;
+}
+
+.card .title .price del {
+    color: gray;
+    padding-right: 5px;
+}
+
+.card .title .price span {
+    color: black;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.card .add-cart {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    padding: 20px 15px;
+    border-radius: 25px;
+    background-color: dodgerblue;
+    border: 1px solid white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    font-weight: 600;
+    opacity: 0;
+    cursor: pointer;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover .add-cart {
+    opacity: 100%;
+}
+
+.card .btn {
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.card .btn .icon {
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 7px;
+    border: 1px solid black;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover .btn {
+    opacity: 100%;
+}
+
+.card .btn .icon:hover {
+    background-color: dodgerblue;
+    color: white;
+    border: 1px solid white;
+}
